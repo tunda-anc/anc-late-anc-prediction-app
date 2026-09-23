@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("/content/anc_late_prediction_model.pkl")
+model = joblib.load("anc_late_prediction_model.pkl")
 
 # Page configuration
 st.set_page_config(
